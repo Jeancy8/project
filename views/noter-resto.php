@@ -15,10 +15,10 @@
                         <label class="col-md-12 control-label" for="selectbasic">Restaurant testé</label>
                         <div class="col-md-12">
                             <select id="selectbasic" name="selectbasic" class="form-control">
-                                <option value="Tête">La Tête en l'Air</option>
+                                <option value="Tete">La Tête en l'Air</option>
                                 <option value="Sainte">À l’Image Sainte-Anne</option>
                                 <option value="Annexe">L'Annexe</option>
-                                <option value="Gourmandière">La Gourmandière</option>
+                                <option value="Gourmandiere">La Gourmandière</option>
                             </select>
                         </div>
                     </div>
