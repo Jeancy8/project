@@ -17,7 +17,7 @@
             $req = $this->_db->prepare('INSERT INTO note(restaurant, note, id_profil, date_time) VALUES(:restaurant, :note, :id_profil, :date_time)');
             $req->bindValue(':restaurant', strtolower($note->getRestaurant()));
             $req->bindValue(':note', $note->getNote());
-            $req->bindValue(':id_profil', $note->getIdProfil());
+            $req->bindValue(':id_profil', $note->getId_profil());
             $req->bindValue(':date_time', $note->getDate_time());
             $req->execute();
         }

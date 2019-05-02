@@ -58,13 +58,13 @@
         }
 
 
-        public function getIdProfil()
+        public function getId_profil()
         {
             return $this->_id_profil;
         }
 
 
-        public function setIdProfil($id_profil)
+        public function setId_profil($id_profil)
         {
             $this->_id_profil = $id_profil;
         }

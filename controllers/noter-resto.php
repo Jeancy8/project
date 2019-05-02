@@ -4,7 +4,7 @@
         $info = array(
             'restaurant' => htmlspecialchars($_POST['selectbasic']),
             'note' => htmlspecialchars($_POST['radios']),
-            'idProfil' => htmlspecialchars($myProfil->getId()),
+            'id_profil' => htmlspecialchars($myProfil->getId()),
             'date_time' => htmlspecialchars(date("Y-m-d H:i:s"))
         );
 
